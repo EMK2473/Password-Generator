@@ -72,11 +72,11 @@ header {
   clear: both;
 }
 /* added this to format the checkbox */
-#checkbox{
+#checkbox {
   float: left;
 }
 /* added this to format the text area */
-#textarea{
+#textarea {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -106,7 +106,6 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
 
 #password {
   -webkit-appearance: none;
