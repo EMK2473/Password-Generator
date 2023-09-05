@@ -33,12 +33,11 @@ function generate_password()
   return
  }
   for (let i = 1; i <= quantity; i++) { // loop to create password
-    console.log(type)
     let type_selection = Math.floor(Math.random() * type.length); // gives me a random number between 0-4 (the length of "type")
     let character_selection = Math.floor(Math.random() * type[type_selection].length); //gives me a random index in the string
     password = password + type[type_selection][character_selection]; //generating the whole password
   }
-  console.log(password)//checks if the password is working as intended
+  //checks if the password is working as intended
   //now that i have the password solved, this finds the text area, and gives the "value" which is the text box content
    document.querySelector("#textarea").value = password //finding text area's "value (or) content" then giving it the value of password
 }
