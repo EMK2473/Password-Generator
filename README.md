@@ -5,7 +5,7 @@ In this challenge, I:
 - Developed my own starter code.
 - Added check boxes and an input text box to the HTML page.
 - Defined my Global Variables to be strings of lowercase, uppercase, numbers, and special characters.
-- Added 2 ids to the stlye.css to format the output box, and format the checkboxes and input text box.
+- Added 3 ids to the stlye.css to format the output box, and format the checkboxes and input text box.
 - Wrote 1 single function to handle the process.
 - Wrote methods for defining the local variables: quantity, special_source, lowercase_source, uppercase_source, and numbers_source.
 - Set the password to be an open string.
