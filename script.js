@@ -2,7 +2,7 @@ let lowercase = "abcdefghijklmnopqrstuvwxyz"; // 26 index string
 let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // 26 index string
 let numbers = "0123456789"; // 10 index string
 let special = "!@#$%^&*"; // 8 index string
-//  array ref.      0         1         2        3
+//  array ref.       0         1         2        3
 // const type = [lowercase, uppercase, numbers, special];
 function generate_password() {
   let quantity = document.querySelector("#quantity").value;

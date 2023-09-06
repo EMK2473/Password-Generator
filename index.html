@@ -25,6 +25,7 @@
         <!-- Added Check boxes -->
         <div class="card-footer">
           <section id="checkbox">
+            <h3> Password Character Selection:</h3>
             <label for="numbers"> Numbers: 0-9 </label><br />
             <input type="checkbox" id="numbers" name="numbers" value="1" />
             <br />
@@ -50,7 +51,9 @@
           </section>
           <section>
             <!-- added text input box for # of factors -->
-            <label for="quantity">Quantity (between 8 and 128):</label>
+            <!-- changed quantity to Number of Characters -->
+            <h3>Number of Characters:</h3>
+            <label for="quantity">(must be between 8 and 128):</label>
             <input
               type="number"
               id="quantity"
@@ -60,7 +63,7 @@
             />
           </section>
           <button id="generate" class="btn">Generate Password</button>
-          <p>Select a quantity and check at least one box</p>
+          <p id="selection_p">Select number of characters and check at least one character type</p>
         </div>
       </div>
     </div>

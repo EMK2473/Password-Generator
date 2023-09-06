@@ -7,10 +7,10 @@ In this challenge, I:
 - Defined my Global Variables to be strings of lowercase, uppercase, numbers, and special characters.
 - Added 2 ids to the stlye.css to format the output box, and format the checkboxes and input text box.
 - Wrote 1 single function to handle the process.
-- wrote methods for defining the local variables: quantity, special_source, lowercase_source, uppercase_source, and numbers_source.
+- Wrote methods for defining the local variables: quantity, special_source, lowercase_source, uppercase_source, and numbers_source.
 - Set the password to be an open string.
 - Created a local Array inside the function containing the global variables [lowercase, uppercase, numbers, special].
-- wrote 4 "if" conditional statements, determining if the checkboxes I added were !(not)-true, then they would splice out the array position not chosen.
+- Wrote 4 "if" conditional statements, determining if the checkboxes I added were !(not)-true, then they would splice out the array position not chosen.
 - I added an "if" conditional statement that gives an error alert if NO type is selected, or if a quantity selected is not <= 8, or =< 128.
 - I wrote a "for loop" that lets the index = 1, and if it is <= the quantity, it will iterate 1 to i.
 - I wrote "type_selection" as a method to use Math.floor and Math.random, giving me a random number between the array of type (0,1,2,3).
@@ -23,7 +23,7 @@ In this challenge, I:
 
 Deployed Link: https://emk2473.github.io/password-generator/
 
-Repo Link: https://github.com/EMK2473/password-generator
+Repo Link: https://github.com/EMK2473/password-generator/
 
 Screenshot of Deployed Site:
 ![Alt text](./Assets/Password-Generator-Final-Image.jpg)
