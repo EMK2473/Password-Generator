@@ -33,7 +33,7 @@ function generate_password() {
     alert("Must select AT LEAST one character type");
   }
   if (quantity < 8 || quantity > 128) {
-    alert("Quantity must be BETWEEN 8-128");
+    alert("Quantity MUST BE between 8-128");
     return;
   }
   for (let i = 1; i <= quantity; i++) {

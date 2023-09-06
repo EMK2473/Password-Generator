@@ -84,10 +84,11 @@ header {
 }
 /* added class to box text */
 #selection_p {
-  border: 1px;
+  border: 4px;
   border-color: black;
   border-style: solid;
   margin-left: 50%;
+  text-decoration: underline;
 }
 .btn {
   border: none;
