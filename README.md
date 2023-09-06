@@ -26,4 +26,4 @@ Deployed Link: https://emk2473.github.io/password-generator/
 Repo Link: https://github.com/EMK2473/password-generator/
 
 Screenshot of Deployed Site:
-![Alt text](./Assets/Password-Generator-Final-Image.jpg)
+![Alt text](./Assets/Password-Generator-Final.jpg)
