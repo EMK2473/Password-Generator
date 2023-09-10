@@ -48,4 +48,3 @@ function generate_password() {
 }
 let generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", generate_password);
-// this was copied directly from the starter code.
