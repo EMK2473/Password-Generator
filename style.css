@@ -1,3 +1,11 @@
+:root {
+  --black: #161616;
+  --white: #ffffff;
+  --green: #2eff04;
+  --gray: #373636;
+}
+
+
 *,
 *::before,
 *::after {
@@ -14,7 +22,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: var(--black);
 }
 
 .wrapper {
@@ -27,15 +35,15 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: var(--green)
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--gray);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: var(--green);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -46,7 +54,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: var(--black);
   height: 2px;
 }
 
@@ -85,18 +93,18 @@ header {
 /* added class to style box text */
 #selection_p {
   border: 4px;
-  border-color: black;
+  border-color: var(--white);
   border-style: solid;
   margin-left: 50%;
   text-decoration: underline;
 }
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: var(--green);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: var(--black);
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
