@@ -1,9 +1,8 @@
-let lowercase = "abcdefghijklmnopqrstuvwxyz"; // 26 index string
-let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // 26 index string
-let numbers = "0123456789"; // 10 index string
-let special = "!@#$%^&*"; // 8 index string
-//  array ref.       0         1         2        3
-// const type = [lowercase, uppercase, numbers, special];
+let lowercase = "abcdefghijklmnopqrstuvwxyz"; 
+let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+let numbers = "0123456789"; 
+let special = "!@#$%^&*"; 
+
 function generate_password() {
   let quantity = document.querySelector("#quantity").value;
   let special_source = document.querySelector("#special").checked;
@@ -37,14 +36,14 @@ function generate_password() {
     return;
   }
   for (let i = 1; i <= quantity; i++) {
-    // loop to create password
-    let type_selection = Math.floor(Math.random() * type.length); // gives me a random number between 0-3 (the length of "type")
+    
+    let type_selection = Math.floor(Math.random() * type.length); 
     let character_selection = Math.floor(
       Math.random() * type[type_selection].length
-    ); //gives me a random index from randomly selected string (which loops depending on quantity)
-    password = password + type[type_selection][character_selection]; //generates the password output
+    ); 
+    password = password + type[type_selection][character_selection]; 
   }
-  document.querySelector("#textarea").value = password; //finding text area's "value (or) content" then giving it the value of password
+  document.querySelector("#textarea").value = password; 
 }
 let generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", generate_password);
